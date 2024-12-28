@@ -7,7 +7,8 @@ public final class Filter extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-
+        getConfig().options().copyDefaults();
+        saveDefaultConfig();
     }
 
     @Override

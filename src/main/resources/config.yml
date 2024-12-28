@@ -1,0 +1,34 @@
+# Filter by AxionSpire
+# Ultimate filtering and logging plugin.
+
+# Prefix
+# Appears in front of all messages.
+# Color codes available, guide: https://wiki.ess3.net/mc
+Prefix: "&8[&4Filter&8]"
+
+# Filtering options
+# Configures filtering settings for the plugin.
+# Note that filters are set up in filters.yml, not here.
+Filtering:
+  # Decides whether to cancel chat messages from being sent when filtered.
+  # Heavily recommended to keep this set to true!
+  BlockCaughtText: true
+  # Decides whether to enable the name filter.
+  NameFilter: true
+  # Should players be prevented from joining if their names are filtered?
+  # The filter set's command will be run regardless of this setting.
+  NameBlockJoin: false
+
+# Logging options
+# Decides how logging is done for the plugin.
+Logging:
+  # Decides whether to log when text is filtered.
+  LogFiltered: true
+
+# Filtered commands
+# This is a list of every command to check against the filter.
+FilteredCommands:
+  - "msg"
+  - "w"
+  - "say"
+  - "me"

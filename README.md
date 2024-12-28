@@ -1,3 +1,4 @@
+### This plugin is in development and NOT ready for use!
 # Filter (by AxionSpire)
 The ultimate text filtering and logging plugin. Heavily customizable.
 
