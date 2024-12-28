@@ -1,0 +1,8 @@
+name: Filter
+version: '1.0.0'
+main: net.axionspire.filter.Filter
+api-version: '1.21'
+prefix: Filter
+authors: [ Aelithron ]
+description: The ultimate text filtering and logging plugin. Heavily customizable.
+website: https://github.com/AxionSpire/Filter
